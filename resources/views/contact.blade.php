@@ -9,24 +9,6 @@
                 Contact our specialists
             </h1>
 
-            <!-- Nav pills -->
-            <ul class="nav nav-pills justify-content-center pb-sm-3 mb-3 pb-2" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button type="button" class="nav-link active" id="customers-tab" data-bs-toggle="pill"
-                        data-bs-target="#customers" role="tab" aria-controls="customers" aria-selected="true">
-                        <i class="ci-shopping-bag fs-base ms-n1 me-2"></i>
-                        For Customers
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="retailers-tab" data-bs-toggle="pill" data-bs-target="#retailers"
-                        type="button" role="tab" aria-controls="retailers" aria-selected="false">
-                        <i class="ci-box fs-base ms-n1 me-2"></i>
-                        For Retailers
-                    </button>
-                </li>
-            </ul>
-
             <!-- Forms wrapper -->
             <div class="row justify-content-center">
                 <div class="col-md-11 col-lg-9 col-xl-8">
@@ -198,7 +180,7 @@
     </section>
 
     <!-- Contact info -->
-    <section class="mt-xxl-3 container pt-5">
+    <section class="mt-xxl-3 my-xxl-3 py-sm-2 py-md-3 py-lg-4 py-xl-5 container py-1 pt-5">
         <div class="row row-cols-1 row-cols-sm-3 gy-4 gy-sm-0 pt-sm-2 pt-md-3 pt-lg-4 pt-xl-5 pt-1">
             <div class="col mb-sm-0 mb-2 text-center">
                 <i class="ci-phone-outgoing bg-dark fs-4 rounded-circle d-inline-flex d-none-dark mb-3 p-3 text-white"></i>
@@ -236,7 +218,7 @@
     </section>
 
     <!-- Store locations + Map in lightbox -->
-    <section class="py-sm-2 py-md-3 py-lg-4 py-xl-5 my-xxl-3 container py-1">
+    {{-- <section class="py-sm-2 py-md-3 py-lg-4 py-xl-5 my-xxl-3 container py-1">
         <div class="row row-cols-1 row-cols-md-2 g-0 rounded-5 my-5 overflow-hidden">
             <!-- Map -->
             <div class="col position-relative">
@@ -283,5 +265,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

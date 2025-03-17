@@ -10,10 +10,10 @@
             <div class="row py-md-4 py-lg-5 mt-xl-2 mb-xl-5">
                 <div class="col-lg-6 pt-xxl-4">
                     <h1 class="d-flex flex-column text-uppercase fst-italic pb-lg-3 mb-lg-4 text-white"
-                        style="font-weight: 800">
-                        <span class="d-none d-lg-block" style="font-size: 120px">Connect</span>
-                        <span class="d-none d-lg-block" style="font-size: 120px">Share</span>
-                        <span class="d-none d-lg-block" style="font-size: 120px">Grow</span>
+                        style="font-weight: 800; text-shadow: 5px 12px 5px rgba(0, 0, 0, 0.5)">
+                        <span class="d-none d-lg-block" style="font-size: 90px">Connect</span>
+                        <span class="d-none d-lg-block" style="font-size: 90px">Share</span>
+                        <span class="d-none d-lg-block" style="font-size: 90px">Grow</span>
                         <span class="d-none d-md-block d-lg-none" style="font-size: 80px">Connect</span>
                         <span class="d-none d-md-block d-lg-none" style="font-size: 80px">Share</span>
                         <span class="d-none d-md-block d-lg-none" style="font-size: 80px">Grow</span>
@@ -52,12 +52,12 @@
         </div>
 
         {{-- <!-- Foreground image --> --}}
-        <img src="assets/img/home/single-product/hero/foreground.png"
+        <img src="assets/img/home/single-product/hero/foreground2.png"
             class="position-absolute w-100 h-100 object-fit-cover z-2 d-none d-md-block start-0 top-0"
             alt="Foreground image">
 
         {{-- <!-- Background image --> --}}
-        <img src="assets/img/home/single-product/hero/background.jpg"
+        <img src="assets/img/home/single-product/hero/background2.jpg"
             class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Background image">
     </section>
 
@@ -140,7 +140,7 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/02.jpg"
+                    <img src="assets/img/home/single-product/feature_01.png"
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
                 </div>
             </div>
@@ -179,16 +179,8 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/03.jpg"
+                    <img src="assets/img/home/single-product/feature_02.png"
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
-                    <div
-                        class="position-absolute w-100 h-100 d-flex align-items-end justify-content-end p-sm-4 start-0 top-0 p-3">
-                        <a class="btn btn-lg btn-light stretched-link rounded-pill"
-                            href="https://www.youtube.com/watch?v=ME5CirMkFZE" data-glightbox="" data-gallery="video1">
-                            <i class="ci-play fs-lg ms-n1 me-2"></i>
-                            Play
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -232,7 +224,7 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/02.jpg"
+                    <img src="assets/img/home/single-product/feature_03.png"
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
                 </div>
             </div>
@@ -270,16 +262,8 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/03.jpg"
+                    <img src="assets/img/home/single-product/feature_04.png"
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
-                    <div
-                        class="position-absolute w-100 h-100 d-flex align-items-end justify-content-end p-sm-4 start-0 top-0 p-3">
-                        <a class="btn btn-lg btn-light stretched-link rounded-pill"
-                            href="https://www.youtube.com/watch?v=ME5CirMkFZE" data-glightbox="" data-gallery="video1">
-                            <i class="ci-play fs-lg ms-n1 me-2"></i>
-                            Play
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -606,7 +590,7 @@
 
 
     {{-- <!-- Social networks + CTA --> --}}
-    <section class="pt-sm-3 pb-sm-2 pb-md-3 pt-md-4 py-lg-5 my-xxl-3 container pt-2">
+    {{-- <section class="pt-sm-3 pb-sm-2 pb-md-3 pt-md-4 py-lg-5 my-xxl-3 container pt-2">
         <div class="row g-3 g-sm-4 mb-sm-4 mb-md-0 mb-3">
             <div class="col-md-6 order-md-2 pt-md-5 mt-xl-2 mb-md-0 mb-3">
                 <div class="mx-auto text-center" style="max-width: 500px">
@@ -654,5 +638,5 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

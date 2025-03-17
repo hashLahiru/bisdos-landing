@@ -10,7 +10,7 @@
             <div class="row py-md-4 py-lg-5 mt-xl-2 mb-xl-5">
                 <div class="col-lg-6 pt-xxl-4">
                     <h1 class="d-flex flex-column text-uppercase fst-italic pb-lg-3 mb-lg-4 text-white"
-                        style="font-weight: 800">
+                        style="font-weight: 800; text-shadow: 5px 12px 5px rgba(0, 0, 0, 0.5)">
                         <span class="d-none d-lg-block" style="font-size: 60px">CONNECT... SHARE... GROW...</span>
                         <span class="d-none d-lg-block" style="font-size: 60px">AS A TEAM</span>
                         <span class="d-none d-md-block d-lg-none" style="font-size: 30px">CONNECT... SHARE... GROW...</span>
@@ -49,12 +49,12 @@
         </div>
 
         {{-- <!-- Foreground image --> --}}
-        <img src="assets/img/home/single-product/hero/foreground.png"
+        <img src="assets/img/teamcard/backgroundTeam.png"
             class="position-absolute w-100 h-100 object-fit-cover z-2 d-none d-md-block start-0 top-0"
             alt="Foreground image">
 
         {{-- <!-- Background image --> --}}
-        <img src="assets/img/home/single-product/hero/background.jpg"
+        <img src="assets/img/teamcard/backgroundTeam2.jpg"
             class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Background image">
     </section>
 
@@ -99,7 +99,7 @@
             </div>
             <div class="col-8 col-sm-6 col-md-4 mb-md-0 mb-4">
                 <div class="ratio" style="--cz-aspect-ratio: calc(465 / 416 * 100%)">
-                    <img src="assets/img/home/single-product/01.png" alt="Image">
+                    <img src="assets/img/teamcard/TeamCardSample.png" alt="Image">
                 </div>
             </div>
             <div class="col-md-4">
@@ -145,7 +145,7 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/02.jpg"
+                    <img src={{ asset('/assets/img/team-features/01.png') }}
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
                 </div>
             </div>
@@ -183,27 +183,13 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/03.jpg"
+                    <img src={{ asset('/assets/img/team-features/02.png') }}
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
-                    <div
-                        class="position-absolute w-100 h-100 d-flex align-items-end justify-content-end p-sm-4 start-0 top-0 p-3">
-                        <a class="btn btn-lg btn-light stretched-link rounded-pill"
-                            href="https://www.youtube.com/watch?v=ME5CirMkFZE" data-glightbox="" data-gallery="video1">
-                            <i class="ci-play fs-lg ms-n1 me-2"></i>
-                            Play
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="d-flex align-items-center h-100 bg-body-tertiary rounded-5 p-xl-5 p-4">
                     <div class="p-sm-3 p-xxl-2">
-                        {{-- <div class="ratio ratio-1x1 mb-sm-4 mb-3" style="width: 92px">
-                            <img src="assets/img/home/single-product/bpa-fee-light.png" class="d-none-dark"
-                                alt="Image">
-                            <img src="assets/img/home/single-product/bpa-fee-dark.png" class="d-none d-block-dark"
-                                alt="Image">
-                        </div> --}}
                         <h2 class="mb-lg-4 pt-lg-3">Easy to Reassign</h2>
                         <p class="fs-lg pb-sm-2 pb-lg-3">Say goodbye to wasted cards when employees leave—simply reset and
                             reassign! BisDos team cards allow you to transfer credentials effortlessly, ensuring smooth
@@ -235,7 +221,7 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/02.jpg"
+                    <img src={{ asset('/assets/img/team-features/03.png') }}
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
                 </div>
             </div>
@@ -273,16 +259,8 @@
                     <div class="d-none d-md-block" style="height: 440px"></div>
                     <div class="d-none d-sm-block d-md-none" style="height: 350px"></div>
                     <div class="d-sm-none" style="height: 250px"></div>
-                    <img src="assets/img/home/single-product/03.jpg"
+                    <img src={{ asset('/assets/img/team-features/04.png') }}
                         class="position-absolute w-100 h-100 object-fit-cover start-0 top-0" alt="Image">
-                    <div
-                        class="position-absolute w-100 h-100 d-flex align-items-end justify-content-end p-sm-4 start-0 top-0 p-3">
-                        <a class="btn btn-lg btn-light stretched-link rounded-pill"
-                            href="https://www.youtube.com/watch?v=ME5CirMkFZE" data-glightbox="" data-gallery="video1">
-                            <i class="ci-play fs-lg ms-n1 me-2"></i>
-                            Play
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-7">

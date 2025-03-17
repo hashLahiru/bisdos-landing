@@ -10,7 +10,7 @@
                     <p class="pb-md-3 pb-2">
                         Still have unanswered questions and need to get in touch?
                     </p>
-                    <a class="btn btn-lg btn-primary" href="#!">Contact us</a>
+                    <a class="btn btn-lg btn-primary" href="/contact">Contact us</a>
                 </div>
             </div>
             <div class="col-md-8 offset-xl-1">
@@ -22,17 +22,15 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-1" aria-expanded="false"
                                 aria-controls="faqCollapse-1">
-                                <span class="me-2">How long will delivery take?</span>
+                                <span class="me-2">What is a BisDos Digital Business Card, and how does it work?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-1" aria-labelledby="faqHeading-1"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Delivery times vary based on your location and the chosen shipping
-                                method. Generally, our standard delivery takes up to 5 days, while our
-                                Express Delivery ensures your order reaches you within 1 day. Please
-                                note that these times may be subject to occasional variations due to
-                                unforeseen circumstances, but we do our best to meet these estimates.
+                                BisDos Digital Business Card is an NFC and QR technology-based business card that allows you
+                                to share your contact details digitally. Unlike traditional printed business cards, you only
+                                need one card for a lifetime, eliminating the need for stacks of paper cards.
                             </div>
                         </div>
                     </div>
@@ -43,17 +41,16 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-2" aria-expanded="false"
                                 aria-controls="faqCollapse-2">
-                                <span class="me-2">What payment methods do you accept?</span>
+                                <span class="me-2">What are the benefits of using a digital business card over a
+                                    traditional paper card?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-2" aria-labelledby="faqHeading-2"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                We offer a range of secure payment options to provide you with
-                                flexibility and convenience. Accepted methods include major
-                                credit/debit cards, PayPal, and other secure online payment gateways.
-                                You can find the complete list of accepted payment methods during the
-                                checkout process.
+                                A digital business card is a more professional and unique way to share your contact details.
+                                It reduces recurring printing costs, is environmentally friendly, and allows for real-time
+                                updates without reprinting.
                             </div>
                         </div>
                     </div>
@@ -64,17 +61,15 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-3" aria-expanded="false"
                                 aria-controls="faqCollapse-3">
-                                <span class="me-2">Do you ship internationally?</span>
+                                <span class="me-2">Can I customize my digital business card with my brand colors and
+                                    logo?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-3" aria-labelledby="faqHeading-3"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Yes, we proudly offer international shipping to cater to our global
-                                customer base. Shipping costs and delivery times will be automatically
-                                calculated at the checkout based on your selected destination. Please
-                                note that any customs duties or taxes applicable in your country are
-                                the responsibility of the customer.
+                                Yes! You can provide your custom design, or our professional designers can create a design
+                                for you to match your brand identity.
                             </div>
                         </div>
                     </div>
@@ -85,17 +80,19 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-4" aria-expanded="false"
                                 aria-controls="faqCollapse-4">
-                                <span class="me-2">Do I need an account to place an order?</span>
+                                <span class="me-2">How do team cards differ from personal digital cards?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-4" aria-labelledby="faqHeading-4"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                While you can place an order as a guest, creating an account comes
-                                with added benefits. By having an account, you can easily track your
-                                orders, manage your preferences, and enjoy a quicker checkout process
-                                for future purchases. It also allows us to provide you with
-                                personalized recommendations and exclusive offers.
+                                <ul>
+                                    <li><strong>Team Cards:</strong> You can replace card details and reassign them to new
+                                        team members when employees leave, saving on reprinting costs. Additionally, you can
+                                        manage and analyze leads for the entire team.</li>
+                                    <li><strong>Personal Cards:</strong> You have full control over updating your own
+                                        details anytime you want.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -106,17 +103,15 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-5" aria-expanded="false"
                                 aria-controls="faqCollapse-5">
-                                <span class="me-2">How can I track my order?</span>
+                                <span class="me-2">Does the card support NFC and QR code scanning?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-5" aria-labelledby="faqHeading-5"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Once your order is dispatched, you will receive a confirmation email
-                                containing a unique tracking number. You can use this tracking number
-                                on our website to monitor the real-time status of your shipment.
-                                Additionally, logging into your account will grant you access to a
-                                comprehensive order history, including tracking information.
+                                Yes. BisDos Digital Business Cards come with both NFC and QR code functionality. If a
+                                recipient’s phone does not support NFC, they can scan the QR code to receive your contact
+                                details.
                             </div>
                         </div>
                     </div>
@@ -127,18 +122,15 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-6" aria-expanded="false"
                                 aria-controls="faqCollapse-6">
-                                <span class="me-2">What are the product refund conditions?</span>
+                                <span class="me-2">How can I manage my team’s digital cards from a central
+                                    dashboard?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-6" aria-labelledby="faqHeading-6"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Our refund policy is designed to ensure customer satisfaction. Details
-                                can be found in our [refund policy page](insert link). In essence, we
-                                accept returns within [insert number] days of receiving the product,
-                                provided it is in its original condition with all tags and packaging
-                                intact. Refunds are processed promptly once the returned item is
-                                inspected and approved.
+                                You can analyze team members' leads, gather all leads in one place, and update team member
+                                details through the BisDos dashboard.
                             </div>
                         </div>
                     </div>
@@ -149,17 +141,15 @@
                             <button type="button" class="accordion-button hover-effect-underline collapsed"
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-7" aria-expanded="false"
                                 aria-controls="faqCollapse-7">
-                                <span class="me-2">Where can I find your size guide?</span>
+                                <span class="me-2">Can I reassign a digital card to a new employee if someone leaves the
+                                    company?</span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-7" aria-labelledby="faqHeading-7"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Our comprehensive size guide is conveniently located on each product
-                                page to assist you in choosing the right fit. Additionally, you can
-                                find the size guide in the main menu under "Size Guide." We recommend
-                                referring to these resources to ensure your selected items match your
-                                preferred sizing.
+                                Yes! You can update the existing card details and reassign it to a new team member without
+                                needing a new card.
                             </div>
                         </div>
                     </div>
@@ -171,19 +161,16 @@
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-8" aria-expanded="false"
                                 aria-controls="faqCollapse-8">
                                 <span class="me-2">
-                                    Do I need to create an account to shop with you?
+                                    Do I need an app to use the digital business card?
                                 </span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-8" aria-labelledby="faqHeading-8"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                While guest checkout is available for your convenience, creating an
-                                account enhances your overall shopping experience. With an account,
-                                you can easily track your order status, save multiple shipping
-                                addresses, and enjoy a streamlined checkout process. Moreover, account
-                                holders receive early access to promotions and exclusive offers.
-                                Signing up is quick and hassle-free!
+                                No. BisDos cards work with built-in NFC and QR functionalities on smartphones. You can also
+                                manage your profile and update your details through our web-based user dashboard without
+                                downloading any apps.
                             </div>
                         </div>
                     </div>
@@ -195,16 +182,15 @@
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-9" aria-expanded="false"
                                 aria-controls="faqCollapse-9">
                                 <span class="me-2">
-                                    Is there a minimum order value for free shipping?
+                                    Is my contact information secure when using BisDos digital cards?
                                 </span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-9" aria-labelledby="faqHeading-9"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Yes, we offer free shipping on orders exceeding $250. Orders below
-                                this threshold are subject to standard shipping fees, which will be
-                                displayed during the checkout process.
+                                Yes. Our servers use database encryption methods and bot protection to prevent unauthorized
+                                access and keep your contact details secure.
                             </div>
                         </div>
                     </div>
@@ -216,21 +202,100 @@
                                 data-bs-toggle="collapse" data-bs-target="#faqCollapse-10" aria-expanded="false"
                                 aria-controls="faqCollapse-10">
                                 <span class="me-2">
-                                    Can I modify or cancel my order after placing it?
+                                    What are the pricing plans for personal and team digital cards?
                                 </span>
                             </button>
                         </h3>
                         <div class="accordion-collapse collapse" id="faqCollapse-10" aria-labelledby="faqHeading-10"
                             data-bs-parent="#faq">
                             <div class="accordion-body">
-                                Once an order is confirmed, our system processes it promptly to ensure
-                                timely dispatch. Therefore, modifications or cancellations are
-                                challenging after this point. However, please contact our customer
-                                support as soon as possible, and we will do our best to assist you
-                                based on the order status.
+                                Personal card pricing is listed on our homepage. For team cards, pricing depends on the
+                                number of employees. You can request a quotation by filling out the form on the Teams page.
                             </div>
                         </div>
                     </div>
+
+                    <!-- Question -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading-11">
+                            <button type="button" class="accordion-button hover-effect-underline collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#faqCollapse-11" aria-expanded="false"
+                                aria-controls="faqCollapse-11">
+                                <span class="me-2">
+                                    What should I do if I lose my BisDos card?
+                                </span>
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="faqCollapse-11" aria-labelledby="faqHeading-11"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                Inform us immediately, and we will disconnect your card to prevent unauthorized access to
+                                your contact details.</div>
+                        </div>
+                    </div>
+
+                    <!-- Question -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading-12">
+                            <button type="button" class="accordion-button hover-effect-underline collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#faqCollapse-12" aria-expanded="false"
+                                aria-controls="faqCollapse-12">
+                                <span class="me-2">
+                                    How much does it cost to replace a lost or damaged card?
+                                </span>
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="faqCollapse-12" aria-labelledby="faqHeading-12"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                We offer a replacement card at 50% of the original price.</div>
+                        </div>
+                    </div>
+
+                    <!-- Question -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading-13">
+                            <button type="button" class="accordion-button hover-effect-underline collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#faqCollapse-13" aria-expanded="false"
+                                aria-controls="faqCollapse-13">
+                                <span class="me-2">
+                                    What is the difference between one-time payment business cards and subscription-based
+                                    cards?
+                                </span>
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="faqCollapse-13" aria-labelledby="faqHeading-13"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><strong>One-Time Payment Cards:</strong> Allow you to share and update your contact
+                                        details, images without any additional features.</li>
+                                    <li><strong>Subscription-Based Cards:</strong> YOffer advanced benefits such as lead
+                                        management, personal portfolio websites, linking up to six social media profiles,
+                                        and a personal gallery.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Question -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading-14">
+                            <button type="button" class="accordion-button hover-effect-underline collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#faqCollapse-14" aria-expanded="false"
+                                aria-controls="faqCollapse-14">
+                                <span class="me-2">
+                                    How much does delivery cost?
+                                </span>
+                            </button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="faqCollapse-14" aria-labelledby="faqHeading-14"
+                            data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                We offer free delivery for all BisDos digital business cards.</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
