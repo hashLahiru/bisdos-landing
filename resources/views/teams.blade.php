@@ -380,59 +380,62 @@
                         <p class="mx-auto py-3 text-center" style="max-width: 450px">
                             Have questions or need a customized solution for your team? Fill out the form below, and our
                             specialists will get back to you within 24 hours. You can also reach us directly at
-                            <a class="text-decoration-none" href="mailto:info@cartzilla.com">
-                                [your email here].
+                            <a class="text-decoration-none" href="mailto:info@bisdos.com">
+                                info@bisdos.com
                             </a>
                         </p>
 
                         <!-- Customers form -->
                         <div class="tab-pane fade show active" id="customers" role="tabpanel"
                             aria-labelledby="customers-tab">
-                            <form class="needs-validation" novalidate="">
+                            <form class="needs-validation" novalidate="" action="{{ route('teamcard.submit') }}"
+                                method="POST">
+                                @csrf
                                 <div class="row g-4">
                                     <div class="col-md-12 position-relative">
-                                        <label for="fn" class="form-label">Your name *</label>
+                                        <label for="name" class="form-label">Your name *</label>
                                         <input type="text" class="form-control form-control-lg rounded-pill"
-                                            id="fn" required="" />
+                                            id="name" name="name" required="" />
                                         <div class="invalid-tooltip z-0 bg-transparent py-0 ps-3">
-                                            Enter your first name!
+                                            Enter your name!
                                         </div>
                                     </div>
                                     <div class="col-md-12 position-relative">
-                                        <label for="ln" class="form-label">Email *</label>
-                                        <input type="text" class="form-control form-control-lg rounded-pill"
-                                            id="ln" required="" />
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" class="form-control form-control-lg rounded-pill"
+                                            id="email" name="email" required="" />
                                         <div class="invalid-tooltip z-0 bg-transparent py-0 ps-3">
-                                            Enter your last name!
+                                            Enter your email!
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <label for="phone" class="form-label">Phone number</label>
                                         <input type="tel" class="form-control form-control-lg rounded-pill"
-                                            id="phone"
+                                            id="phone" name="phone"
                                             data-input-format='{"numericOnly": true, "delimiters": ["+1 ", " ", " "], "blocks": [0, 3, 3, 2]}'
-                                            placeholder="+1 ___ ___ __" />
+                                            placeholder="+94 __ ___ ____" />
                                     </div>
                                     <div class="col-md-12 position-relative">
-                                        <label for="email" class="form-label">Company Name *</label>
-                                        <input type="email" class="form-control form-control-lg rounded-pill"
-                                            id="email" required="" />
+                                        <label for="company" class="form-label">Company Name *</label>
+                                        <input type="text" class="form-control form-control-lg rounded-pill"
+                                            id="company" name="company" required="" />
                                         <div class="invalid-tooltip z-0 bg-transparent py-0 ps-3">
-                                            Enter your email address!
+                                            Enter your company name!
                                         </div>
                                     </div>
                                     <div class="col-md-12 position-relative">
-                                        <label for="email" class="form-label">Team Members Count *</label>
+                                        <label for="member_count" class="form-label">Team Members Count *</label>
                                         <input type="email" class="form-control form-control-lg rounded-pill"
-                                            id="email" required="" />
+                                            id="member_count" name="member_count" required="" />
                                         <div class="invalid-tooltip z-0 bg-transparent py-0 ps-3">
-                                            Enter your email address!
+                                            Enter your team members count!
                                         </div>
                                     </div>
 
                                     <div class="col-12 position-relative">
                                         <label for="message" class="form-label">Message </label>
-                                        <textarea class="form-control form-control-lg rounded-6" id="message" rows="5" required=""></textarea>
+                                        <textarea id="message" name="message" class="form-control form-control-lg rounded-6" id="message"
+                                            rows="5" required=""></textarea>
                                         <div class="invalid-tooltip z-0 bg-transparent py-0 ps-3">
                                             Write your message!
                                         </div>

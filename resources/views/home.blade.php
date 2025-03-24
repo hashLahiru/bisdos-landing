@@ -127,7 +127,8 @@
             </div>
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-lg btn-dark rounded-pill">Get Your Digital Business Card</button>
+            <button type="button" class="btn btn-lg btn-dark rounded-pill" onclick="window.location.href='/contact'">Get
+                Your Digital Business Card</button>
         </div>
     </section>
 
@@ -341,7 +342,8 @@
                 <p class="fs-sm mb-sm-4">We are confident in the quality and performance of our cards, and we want you to
                     be completely satisfied. That’s why we offer a <span class="fw-semibold text-body-emphasis">30-day
                         money-back guarantee—no questions asked.</span></p>
-                <button type="button" class="btn btn-lg btn-dark rounded-pill">Get Your Digital Card</button>
+                <button type="button" class="btn btn-lg btn-dark rounded-pill"
+                    onclick="window.location.href='/contact'">Get Your Digital Card</button>
             </div>
             <div class="col-10 col-sm-8 col-md-7 col-xl-6 offset-xl-1">
                 <div class="tab-content">
@@ -639,4 +641,93 @@
             </div>
         </div>
     </section> --}}
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user has already submitted the form
+            if (!localStorage.getItem('preorderSubmitted')) {
+                // Show the modal after 10 seconds
+                setTimeout(function() {
+                    var myModal = new bootstrap.Modal(document.getElementById('modalCentered'));
+                    myModal.show();
+                }, 10000);
+            }
+
+            // Handle form submission
+            document.querySelector('#modalCentered form').addEventListener('submit', function() {
+                localStorage.setItem('preorderSubmitted', 'true'); // Save submission status
+            });
+        });
+    </script>
+
+
+    <style>
+        /* Ensure same border-radius for modal and image */
+        .modal-content,
+        .modal-body img,
+        .overlay {
+            border-radius: 20px;
+        }
+
+        /* White placeholder text */
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+
+    <div class="modal fade" id="modalCentered" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded-5 p-0" style="margin: 10px 0;">
+                <div class="modal-body p-0">
+                    <div class="position-relative" style="height: 80vh;">
+                        <!-- Background Image -->
+                        <img src="assets/img/bamboo-card.jpg" class="w-100 h-100 object-fit-cover"
+                            alt="Background image">
+
+                        <!-- Transparent Overlay -->
+                        <div class="overlay position-absolute w-100 h-100 start-0 top-0"
+                            style="background: rgba(0, 0, 0, 0.7);"></div>
+
+                        <!-- Foreground Content -->
+                        <div class="position-absolute top-50 start-50 translate-middle w-100 p-4 text-white">
+                            <h4 class="mb-3 text-center">🌿 BisDos Bamboo Limited Edition 🌿</h4>
+                            <p class="text-center">
+                                Own an exclusive <strong>NFC-powered bamboo business card</strong> with
+                                <strong>laser engraving.</strong>
+                                Only <strong>100 available</strong>—sustainable, stylish, and built to last.
+                            </p>
+                            <p class="text-center">Secure yours now before they’re gone! 🚀</p>
+
+                            <!-- Pre-Order Form -->
+                            <form action="{{ route('preorder.submit') }}" method="POST">
+                                @csrf
+                                <div class="mb-3">
+                                    <input type="text"
+                                        class="form-control rounded-pill border-white bg-transparent text-white"
+                                        placeholder="Name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email"
+                                        class="form-control rounded-pill border-white bg-transparent text-white"
+                                        placeholder="Email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel"
+                                        class="form-control rounded-pill border-white bg-transparent text-white"
+                                        placeholder="Phone" name="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text"
+                                        class="form-control rounded-pill border-white bg-transparent text-white"
+                                        placeholder="Address" name="address" required>
+                                </div>
+                                <button type="submit" class="btn btn-outline-light w-100 rounded-pill">Pre-Order
+                                    Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

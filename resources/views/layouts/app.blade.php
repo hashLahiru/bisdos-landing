@@ -46,6 +46,8 @@
 
     {{-- <!-- Customizer --> --}}
     <script src="assets/js/customizer.min.js"></script>
+
+
 </head>
 
 {{-- <!-- Body --> --}}
