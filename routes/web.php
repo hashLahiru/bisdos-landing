@@ -48,3 +48,4 @@ Route::get('/admin/dashboard', function () {
 
 Route::post('/preorder-submit', [ContactController::class, 'preorderSubmit'])->name('preorder.submit');
 Route::post('/team-card-submit', [ContactController::class, 'teamCardSubmit'])->name('teamcard.submit');
+Route::post('/cta-submit', [ContactController::class, 'contactUsSubmit'])->name('contactus.submit');

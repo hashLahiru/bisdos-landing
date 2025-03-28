@@ -9,10 +9,12 @@ use Illuminate\Support\Facades\Mail;
 // Import Mailables
 use App\Mail\PreOrderMail;
 use App\Mail\TeamCardMail;
+use App\Mail\ContactUsMail;
 
 // Import Models
 use App\Models\BambooPreOrder;
 use App\Models\TeamCardOrder;
+use App\Models\ContactUs;
 
 class ContactController extends Controller
 {
@@ -66,5 +68,32 @@ class ContactController extends Controller
         Mail::to($ownerEmail)->send(new TeamCardMail($request->all(), 'owner'));
 
         return back()->with('success', 'Your team card order has been recieved. We will contact you soon!');
+    }
+
+    public function contactUsSubmit(Request $request)
+    {
+        $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required|string|max:20',
+            'message' => 'required|string|max:1000'
+        ]);
+
+        $contactUs = ContactUs::create([
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'message' => $request->message,
+            'status' => 'unread'
+        ]);
+
+        Mail::to($request->email)->send(new ContactUsMail($request->all(), 'user'));
+
+        $ownerEmail = 'info@bisdos.com';
+        Mail::to($ownerEmail)->send(new ContactUsMail($request->all(), 'owner'));
+
+        return back()->with('success', 'Your message has been recieved. We will contact you soon!');
     }
 }

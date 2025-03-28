@@ -564,9 +564,8 @@
 
             {{-- <!-- Button group --> --}}
             <div class="d-flex gap-sm-1 position-relative z-1">
-
                 {{-- <!-- Theme switcher (light/dark/auto) --> --}}
-                <div class="dropdown me-1" style="">
+                <div class="dropdown me-1" style="display:none;">
                     <button type="button"
                         class="theme-switcher btn btn-icon btn-outline-secondary fs-lg rounded-circle animate-scale border-0"
                         data-bs-toggle="dropdown" data-bs-display="dynamic" aria-expanded="false"
@@ -579,7 +578,7 @@
                         style="--cz-dropdown-min-width: 9rem; --cz-dropdown-spacer: 1rem">
                         <li>
                             <button type="button" class="dropdown-item active" data-bs-theme-value="light"
-                                aria-pressed="true">
+                                aria-pressed="false">
                                 <span class="theme-icon d-flex fs-base me-2">
                                     <i class="ci-sun"></i>
                                 </span>
@@ -589,7 +588,7 @@
                         </li>
                         <li>
                             <button type="button" class="dropdown-item" data-bs-theme-value="dark"
-                                aria-pressed="false">
+                                aria-pressed="true">
                                 <span class="theme-icon d-flex fs-base me-2">
                                     <i class="ci-moon"></i>
                                 </span>
@@ -615,7 +614,7 @@
                         font-size: 1.5rem !important;
                     }
                 </style>
-                <div class="dropdown me-1">
+                <div class="dropdown me-1" style="display: none;">
                     <button type="button"
                         class="theme-switcher btn btn-icon btn-outline-secondary fs-lg rounded-circle animate-scale border-0"
                         data-bs-toggle="dropdown" data-bs-display="dynamic" aria-expanded="false"
@@ -625,12 +624,6 @@
                         </span>
                     </button>
                 </div>
-
-                {{-- <!-- Cart button --> --}}
-                {{-- <button type="button" class="btn btn-warning rounded-pill" data-bs-toggle="offcanvas"
-                    data-bs-target="#shoppingCart" aria-controls="shoppingCart" aria-label="Shopping cart">
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>
-                </button> --}}
             </div>
         </div>
     </header>
