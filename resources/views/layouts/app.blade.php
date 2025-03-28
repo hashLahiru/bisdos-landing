@@ -46,6 +46,8 @@
 
     {{-- <!-- Customizer --> --}}
     <script src="assets/js/customizer.min.js"></script>
+
+
 </head>
 
 {{-- <!-- Body --> --}}
@@ -562,7 +564,6 @@
 
             {{-- <!-- Button group --> --}}
             <div class="d-flex gap-sm-1 position-relative z-1">
-
                 {{-- <!-- Theme switcher (light/dark/auto) --> --}}
                 <div class="dropdown me-1" style="display:none;">
                     <button type="button"
@@ -613,7 +614,7 @@
                         font-size: 1.5rem !important;
                     }
                 </style>
-                <div class="dropdown me-1">
+                <div class="dropdown me-1" style="display: none;">
                     <button type="button"
                         class="theme-switcher btn btn-icon btn-outline-secondary fs-lg rounded-circle animate-scale border-0"
                         data-bs-toggle="dropdown" data-bs-display="dynamic" aria-expanded="false"
@@ -623,12 +624,6 @@
                         </span>
                     </button>
                 </div>
-
-                {{-- <!-- Cart button --> --}}
-                {{-- <button type="button" class="btn btn-warning rounded-pill" data-bs-toggle="offcanvas"
-                    data-bs-target="#shoppingCart" aria-controls="shoppingCart" aria-label="Shopping cart">
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>
-                </button> --}}
             </div>
         </div>
     </header>
@@ -645,54 +640,11 @@
         <div class="pb-sm-2 pb-md-3 container">
             <div class="position-relative pe-lg-3 pe-xxl-0 px-4 py-3">
                 <div class="row align-items-center position-relative z-1">
-                    <div class="col-lg-4 col-xxl-5 order-lg-2 mb-lg-0 mb-2">
-                        <div class="nav justify-content-center justify-content-lg-start">
-                            <a class="nav-link animate-underline fs-xs px-3" href="#!">
-                                <span class="animate-target">Privacy</span>
-                            </a>
-                            <a class="nav-link animate-underline fs-xs px-3" href="#!">
-                                <span class="animate-target">Affiliates</span>
-                            </a>
-                            <a class="nav-link animate-underline fs-xs px-3" href="#!">
-                                <span class="animate-target"> Terms of use</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex gap-sm-3 justify-content-center order-lg-3 mb-lg-0 mb-2 gap-2">
-                        <div>
-                            <img src="assets/img/payment-methods/visa-light-mode.svg" class="d-none-dark"
-                                alt="Visa">
-                            <img src="assets/img/payment-methods/visa-dark-mode.svg" class="d-none d-block-dark"
-                                alt="Visa">
-                        </div>
-                        <div>
-                            <img src="assets/img/payment-methods/paypal-light-mode.svg" class="d-none-dark"
-                                alt="PayPal">
-                            <img src="assets/img/payment-methods/paypal-dark-mode.svg" class="d-none d-block-dark"
-                                alt="PayPal">
-                        </div>
-                        <div>
-                            <img src="assets/img/payment-methods/mastercard.svg" alt="Mastercard">
-                        </div>
-                        <div>
-                            <img src="assets/img/payment-methods/google-pay-light-mode.svg" class="d-none-dark"
-                                alt="Google Pay">
-                            <img src="assets/img/payment-methods/google-pay-dark-mode.svg" class="d-none d-block-dark"
-                                alt="Google Pay">
-                        </div>
-                        <div>
-                            <img src="assets/img/payment-methods/apple-pay-light-mode.svg" class="d-none-dark"
-                                alt="Apple Pay">
-                            <img src="assets/img/payment-methods/apple-pay-dark-mode.svg" class="d-none d-block-dark"
-                                alt="Apple Pay">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xxl-3 order-lg-1">
-                        <p class="fs-xs text-lg-start order-md-1 mb-0 text-center">
+                    <div class="col-lg-4 col-xxl-5 order-lg-2 mb-lg-0 mx-auto mb-2">
+                        <p class="fs-xs mb-0 text-center">
                             © All rights reserved. Made by <span class="animate-underline"><a
                                     class="animate-target text-dark-emphasis text-decoration-none"
-                                    href="https://createx.studio/" target="_blank" rel="noreferrer">Createx
-                                    Studio</a></span>
+                                    href="https://www.bisdos.com" target="_blank" rel="noreferrer">BisDos</a></span>
                         </p>
                     </div>
                 </div>
